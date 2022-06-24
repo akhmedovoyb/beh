@@ -1,0 +1,236 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style:none;
+}
+
+:root {
+    --gb: 'Gilroy-Bold';
+    --gm: 'Gilroy-Medium';
+    --white: #fff;
+    --grey: #f6f6f6;
+    --black: #070707;
+
+}
+
+.header__nav {
+    border-bottom: 2px solid #828282;
+    padding: 32px 0;
+}
+
+.header__link:nth-of-type(1) {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--black);
+    font-family: var(--gb);
+}
+
+.header__link {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-family: var(--gb);
+    padding: 0 !important;
+}
+
+.main__title {
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: var(--black);
+    font-family: var(--gb);
+}
+
+.main__heading-description {
+    color: var(--black);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--gm);
+    max-width: 160px;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.main__avatar {
+    max-height: 450px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 104px;
+}
+
+.main__aboutme {
+    width: 100%;
+    background: var(--grey);
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+.main__aboutme-title {
+    font-size: 34px;
+    line-height: 42px;
+    font-family: var(--gb);
+    color: var(--black);
+    margin-bottom: 24px;
+}
+
+.main__aboutme-text {
+    max-width: 486px;
+    width: 100%;
+}
+
+.main__aboutme-description {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-family: var(--gm);
+    color: var(--black);
+}
+
+.main__skills {
+    padding-top: 91px;
+    padding-bottom: 111px;
+}
+
+.main__skills-title {
+    font-size: 34px;
+    line-height: 42px;
+    color: var(--black);
+    font-family: var(--gb);
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.main__skills-description {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--gm);
+    color: var(--black);
+    margin-bottom: 84px;
+}
+
+.main__skills-img {
+    width: 89px;
+    margin-bottom: 25px;
+
+}
+
+.main__skills-text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    font-family: var(--gb);
+    margin-bottom: 41px;
+}
+
+.main__skills-img:nth-of-type(1) {
+    height: 89px;
+    width: auto;
+}
+
+.main__skills-stars {
+    max-width: 167px;
+    width: 100%;
+}
+
+.main__portfolio {
+    padding-top: 113px;
+    padding-bottom: 96px;
+    background: var(--grey);
+}
+
+.main__portfolio-title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--black);
+    font-family: var(--gb);
+    margin-bottom: 47px;
+}
+
+.main__portfolio-img {
+    max-width: 936px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.main__portfolio-description {
+    font-size: 24px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: var(--black);
+    font-family: var(--gm);
+    cursor: pointer;
+}
+
+.main__portfolio-box {
+    margin-bottom: 96px;
+}
+
+.main__portfolio-box:last-child {
+    margin-bottom: 0;
+}
+
+.footer {
+    padding-top: 114px;
+    padding-bottom: 123px;
+}
+
+.footer__title {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--black);
+    font-family: var(--gb);
+    margin-bottom: 20px;
+}
+
+.footer__description {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--black);
+    font-family: var(--gm);
+    margin-bottom: 30px;      
+    max-width: 276px;
+    margin: 0 auto;
+}
+
+.footer__link, .footer__link:hover {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--white);
+    padding: 12px 30px 12px 28px;
+    background: var(--black);
+    font-family: var(--gb);
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 86px;
+}
+
+.footer__icons {
+    display: flex;
+    column-gap: 53px;
+    margin-bottom: 46px;
+}
+
+.footer__text {
+    max-width: 243px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    font-family: var(--gm);
+    margin: 0;
+}
+
+
+
+
